@@ -68,7 +68,7 @@ publishing {
             artifactId 'Reversesdk'
             version '0.1'
             //  artifact(sourceJar)
-            artifact("aar/ReverseSdk-release.aar")
+            artifact("IndoorAtlaSdk/indooratlas-android-sdk-3.4.12.aar")
 
 
         }
