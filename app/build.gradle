@@ -68,7 +68,7 @@ publishing {
             artifactId 'bar'
             version '0.1'
             //  artifact(sourceJar)
-            artifact("$buildDir/outputs/aar/ReverseSdk-release.aar")
+            artifact("aar/ReverseSdk-release.aar")
         }
     }
     repositories {
