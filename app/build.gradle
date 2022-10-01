@@ -79,14 +79,4 @@ publishing {
         }
     }
 }
-publishing {
-    publications {
-        bar(MavenPublication) {
-            groupId 'com.foo'
-            artifactId 'bar'
-            version '0.1'
-            //  artifact(sourceJar)
-            artifact("$buildDir/outputs/aar/ReverseSdk-release.aar")
-        }
-    }
-}
+
