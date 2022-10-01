@@ -64,8 +64,8 @@ afterEvaluate {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId 'com.foo'
-            artifactId 'bar'
+            groupId 'com.example'
+            artifactId 'Reversesdk'
             version '0.1'
             //  artifact(sourceJar)
             artifact("aar/ReverseSdk-release.aar")
